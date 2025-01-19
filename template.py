@@ -27,7 +27,23 @@ list_of_files=[
     "Dockerfile",
     "requirements.txt",
     "setup.py",
-    "research/trails.ipynb"
-
-
+    "research/trials.ipynb"
 ]
+
+# create the list of files
+if __name__=="__main__":
+    for filepath in list_of_files:
+        filepath = Path(filepath)  # convert the filepath in supported OS format
+        filedir,filename = filepath.parent, filepath.name
+
+        if filedir!="":
+            filedir.mkdir(parents=True,exist_ok=True)
+            logging.info(f'Creating Directory: {filedir} for {filename}.')
+        
+        if (not filepath.exists()) or (os.path.getsize(filepath)==0):
+            filepath.touch()
+            logging.info(f"Creating empty file: {filepath}.")
+        
+        else:
+            logging.info(f'{filepath} already exists.')
+
