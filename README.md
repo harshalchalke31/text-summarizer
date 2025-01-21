@@ -1,6 +1,6 @@
 # text-summarizer
 
-# workflow
+# Overall workflow
 
 1. update config.yaml
 2. update params.yaml
@@ -10,3 +10,5 @@
 6. update pipeline
 7. update main
 8. update app
+
+
