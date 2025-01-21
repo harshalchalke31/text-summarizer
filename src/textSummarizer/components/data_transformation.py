@@ -1,4 +1,4 @@
-from textSummarizer.config.configuration import DataTransformationConfig
+from textSummarizer.entity import DataTransformationConfig
 from transformers import AutoTokenizer
 from datasets import load_dataset, load_from_disk
 import os
