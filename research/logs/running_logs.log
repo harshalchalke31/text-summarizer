@@ -33,3 +33,7 @@ Source-Age: 0
 [2025-01-21 08:50:05,322: INFO: common: yaml file: params.yaml loaded successfully]
 [2025-01-21 08:50:05,323: INFO: common: created directory at: artifacts]
 [2025-01-21 08:50:05,325: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-21 08:51:16,100: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-21 08:51:16,102: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-21 08:51:16,103: INFO: common: created directory at: artifacts]
+[2025-01-21 08:51:16,105: INFO: common: created directory at: artifacts/data_validation]
