@@ -150,3 +150,5 @@ Source-Age: 172
 [2025-01-21 14:40:39,703: INFO: common: created directory at: artifacts]
 [2025-01-21 14:40:39,704: INFO: common: created directory at: artifacts/data_transformation]
 [2025-01-21 14:40:42,439: INFO: main: Data Transformation Stage completed >>>>>>>>>>>>>>>>>>>>>]
+[2025-01-22 09:47:10,093: INFO: config: PyTorch version 2.5.1+cu118 available.]
+[2025-01-22 09:47:10,096: INFO: config: TensorFlow version 2.18.0 available.]
