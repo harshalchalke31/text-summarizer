@@ -1,8 +1,4 @@
 import os
-from dataclasses import dataclass
-from pathlib import Path
-from textSummarizer.constants import *
-from textSummarizer.utils.common import read_yaml,create_directories
 from textSummarizer.entity import ModelTrainerConfig
 
 from transformers import Trainer, TrainingArguments, DataCollatorForSeq2Seq, AutoModelForSeq2SeqLM, AutoTokenizer
