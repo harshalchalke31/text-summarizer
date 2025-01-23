@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Projects/python/text-summarizer/mlruns/0/fa6cfaa7c87a4e01b15c6efd7d26966e/artifacts
+end_time: 1737647584872
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fa6cfaa7c87a4e01b15c6efd7d26966e
+run_name: artifacts/model
+run_uuid: fa6cfaa7c87a4e01b15c6efd7d26966e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737647031489
+status: 3
+tags: []
+user_id: harsh
