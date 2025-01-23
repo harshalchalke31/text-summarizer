@@ -198,3 +198,12 @@ Source-Age: 0
 [2025-01-23 14:53:10,934: INFO: common: created directory at: artifacts]
 [2025-01-23 14:53:10,935: INFO: common: created directory at: artifacts/model_evaluation]
 [2025-01-23 14:53:27,029: INFO: rouge_scorer: Using default tokenizer.]
+[2025-01-23 14:53:58,643: WARNING: module_wrapper: From c:\Projects\python\mainenv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-01-23 14:53:59,123: INFO: config: PyTorch version 2.5.1+cu118 available.]
+[2025-01-23 14:53:59,126: INFO: config: TensorFlow version 2.18.0 available.]
+[2025-01-23 14:53:59,470: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-23 14:53:59,472: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-23 14:53:59,473: INFO: common: created directory at: artifacts]
+[2025-01-23 14:53:59,474: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-01-23 14:54:15,318: INFO: rouge_scorer: Using default tokenizer.]
