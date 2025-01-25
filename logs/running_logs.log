@@ -360,3 +360,75 @@ TypeError: ConfigurationManager.get_model_evaluation_config() missing 1 required
 [2025-01-23 23:29:21,737: INFO: on: Waiting for application shutdown.]
 [2025-01-23 23:29:21,738: INFO: on: Application shutdown complete.]
 [2025-01-23 23:29:21,738: INFO: server: Finished server process [18132]]
+[2025-01-25 17:35:02,315: INFO: config: PyTorch version 2.5.1+cu118 available.]
+[2025-01-25 17:35:02,317: INFO: config: TensorFlow version 2.18.0 available.]
+[2025-01-25 17:35:08,626: WARNING: module_wrapper: From C:\Projects\python\mainenv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-01-25 17:35:09,232: INFO: main: Data Ingestion Stage Started >>>>>>>>>>>>>>>>>>>>>]
+[2025-01-25 17:35:09,242: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-25 17:35:09,243: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-25 17:35:09,244: INFO: common: created directory at: artifacts]
+[2025-01-25 17:35:09,244: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-25 17:35:22,003: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded, with the folowing info: 
+X-GUploader-UploadID: AFIdbgRn4BrcKk0WRZxnLZ1fIUsh5v9uIn_n0HfQdWT0PZLze-wnsSwIKJdQhnq3AjxgxuCu
+Content-Type: application/octet-stream
+Content-Security-Policy: sandbox
+Content-Security-Policy: default-src 'none'
+Content-Security-Policy: frame-ancestors 'none'
+X-Content-Security-Policy: sandbox
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Resource-Policy: same-site
+X-Content-Type-Options: nosniff
+Content-Disposition: attachment; filename="data.zip"
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: false
+Access-Control-Allow-Headers: Accept, Accept-Language, Authorization, Cache-Control, Content-Disposition, Content-Encoding, Content-Language, Content-Length, Content-MD5, Content-Range, Content-Type, Date, developer-token, financial-institution-id, X-Goog-Sn-Metadata, X-Goog-Sn-PatientId, GData-Version, google-cloud-resource-prefix, linked-customer-id, login-customer-id, x-goog-request-params, Host, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Origin, OriginToken, Pragma, Range, request-id, Slug, Transfer-Encoding, hotrod-board-name, hotrod-chrome-cpu-model, hotrod-chrome-processors, Want-Digest, X-Ad-Manager-Impersonation, x-chrome-connected, X-ClientDetails, X-Client-Pctx, X-Client-Version, x-debug-settings-metadata, X-Firebase-Locale, X-Goog-Firebase-Installations-Auth, X-Firebase-Client, X-Firebase-Client-Log-Type, X-Firebase-GMPID, X-Firebase-Auth-Token, X-Firebase-AppCheck, X-Firebase-Token, X-Goog-Drive-Client-Version, X-Goog-Drive-Resource-Keys, X-GData-Client, X-GData-Key, X-GoogApps-Allowed-Domains, X-Goog-AdX-Buyer-Impersonation, X-Goog-Api-Client, X-Goog-Visibilities, X-Goog-AuthUser, X-Google-EOM, x-goog-ext-124712974-jspb, x-goog-ext-467253834-jspb, x-goog-ext-353267353-bin, x-goog-ext-353267353-jspb, x-goog-ext-251363160-jspb, x-goog-ext-259736195-jspb, x-goog-ext-477772811-jspb, x-goog-ext-359275022-bin, x-goog-ext-328800237-jspb, x-goog-ext-202735639-bin, x-goog-ext-223435598-bin, X-Goog-PageId, X-Goog-Encode-Response-If-Executable, X-Goog-Correlation-Id, X-Goog-Request-Info, X-Goog-Request-Reason, X-Goog-Request-Time, X-Goog-Experiments, x-goog-iam-authority-selector, x-goog-iam-authorization-token, X-Goog-Spatula, X-Goog-Travel-Bgr, X-Goog-Travel-Settings, X-Goog-Upload-Command, X-Goog-Upload-Content-Disposition, X-Goog-Upload-Content-Length, X-Goog-Upload-Content-Type, X-Goog-Upload-File-Name, X-Goog-Upload-Header-Content-Encoding, X-Goog-Upload-Header-Content-Length, X-Goog-Upload-Header-Content-Type, X-Goog-Upload-Header-Transfer-Encoding, X-Goog-Upload-Offset, X-Goog-Upload-Protocol, x-goog-user-project, X-Goog-Visitor-Id, X-Goog-FieldMask, X-Google-Project-Override, x-goog-maps-api-salt, x-goog-maps-api-signature, x-goog-maps-client-id, X-Goog-Api-Key, x-goog-spanner-database-role, X-HTTP-Method-Override, X-JavaScript-User-Agent, X-Pan-Versionid, X-Proxied-User-IP, X-Origin, X-Referer, X-Requested-With, X-Stadia-Client-Context, X-Upload-Content-Length, X-Upload-Content-Type, X-Use-Alt-Service, X-Use-HTTP-Status-Code-Override, X-Ios-Bundle-Identifier, X-Places-Ios-Sdk, X-Android-Package, X-Android-Cert, X-Places-Android-Sdk, X-Goog-Maps-Ios-Uuid, X-Goog-Maps-Android-Uuid, X-Ariane-Xsrf-Token, X-YouTube-Bootstrap-Logged-In, X-YouTube-VVT, X-YouTube-Page-CL, X-YouTube-Page-Timestamp, X-Compass-Routing-Destination, x-framework-xsrf-token, X-Goog-Meeting-ABR, X-Goog-Meeting-Botguardid, X-Goog-Meeting-Bot-Info, X-Goog-Meeting-ClientInfo, X-Goog-Meeting-ClientVersion, X-Goog-Meeting-Debugid, X-Goog-Meeting-Identifier, X-Goog-Meeting-Interop-Cohorts, X-Goog-Meeting-Interop-Type, X-Goog-Meeting-OidcIdToken, X-Goog-Meeting-RtcClient, X-Goog-Meeting-StartSource, X-Goog-Meeting-Token, X-Goog-Meeting-Viewer-Token, X-Client-Data, x-sdm-id-token, X-Sfdc-Authorization, MIME-Version, Content-Transfer-Encoding, X-Earth-Engine-App-ID-Token, X-Earth-Engine-Computation-Profile, X-Earth-Engine-Computation-Profiling, X-Play-Console-Experiments-Override, X-Play-Console-Session-Id, x-alkali-account-key, x-alkali-application-key, x-alkali-auth-apps-namespace, x-alkali-auth-entities-namespace, x-alkali-auth-entity, x-alkali-client-locale, EES-S7E-MODE, cast-device-capabilities, X-Server-Timeout, x-foyer-client-environment, x-goog-greenenergyuserappservice-metadata, x-goog-sherlog-context, X-Server-Token, x-rfui-request-context, x-goog-nest-jwt, X-Cloud-Trace-Context, traceparent, x-goog-chat-space-id, x-goog-pan-request-context, X-AppInt-Credentials
+Access-Control-Allow-Methods: GET,HEAD,OPTIONS
+Accept-Ranges: bytes
+Content-Length: 11692487
+Last-Modified: Sat, 25 Jan 2025 20:07:37 GMT
+Date: Sat, 25 Jan 2025 22:35:20 GMT
+Expires: Sat, 25 Jan 2025 22:35:20 GMT
+Cache-Control: private, max-age=0
+X-Goog-Hash: crc32c=MVGb6w==
+Server: UploadServer
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Connection: close
+
+]
+[2025-01-25 17:35:22,135: INFO: main: Data Ingestion Stage completed >>>>>>>>>>>>>>>>>>>>>]
+[2025-01-25 17:35:22,135: INFO: main: Data Validation Stage Started >>>>>>>>>>>>>>>>>>>>>]
+[2025-01-25 17:35:22,138: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-25 17:35:22,140: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-25 17:35:22,140: INFO: common: created directory at: artifacts]
+[2025-01-25 17:35:22,141: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-25 17:35:22,141: INFO: data_validation: Data validation unsuccessful.]
+[2025-01-25 17:35:22,142: INFO: data_validation: Data Validation Succesful.]
+[2025-01-25 17:35:22,143: INFO: data_validation: Data Validation Succesful.]
+[2025-01-25 17:35:22,143: INFO: data_validation: Data Validation Succesful.]
+[2025-01-25 17:35:22,143: INFO: main: Data Validation Stage completed >>>>>>>>>>>>>>>>>>>>>]
+[2025-01-25 17:35:22,144: INFO: main: Data Transformation Stage Started >>>>>>>>>>>>>>>>>>>>>]
+[2025-01-25 17:35:22,145: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-25 17:35:22,147: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-25 17:35:22,148: INFO: common: created directory at: artifacts]
+[2025-01-25 17:35:22,148: INFO: common: created directory at: artifacts/data_transformation]
+[2025-01-25 17:35:22,858: INFO: main: Data Transformation Stage completed >>>>>>>>>>>>>>>>>>>>>]
+[2025-01-25 17:35:22,858: INFO: main: Model Training Stage Started >>>>>>>>>>>>>>>>>>>>>]
+[2025-01-25 17:35:22,860: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-25 17:35:22,862: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-25 17:35:22,862: INFO: common: created directory at: artifacts]
+[2025-01-25 17:35:22,863: INFO: common: created directory at: artifacts/model]
+[2025-01-25 17:35:24,590: ERROR: main: 'train']
+Traceback (most recent call last):
+  File "C:\Projects\python\text-summarizer\main.py", line 47, in <module>
+    model_training.main()
+  File "C:\Projects\python\text-summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 13, in main
+    model_trainer_config.train()
+  File "c:\projects\python\text-summarizer\src\textSummarizer\components\model_trainer.py", line 46, in train
+    train_dataset=dataset_samsum_pt['train'],
+                  ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Projects\python\mainenv\Lib\site-packages\datasets\dataset_dict.py", line 72, in __getitem__
+    return super().__getitem__(k)
+           ^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'train'
