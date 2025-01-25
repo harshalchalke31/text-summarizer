@@ -14,17 +14,17 @@ data_validation:
 
 data_transformation:
   root_dir: artifacts/data_transformation
-  data_path: artifacts/data_ingestion/samsum_dataset
+  data_path: artifacts/data_ingestion/summary_data
   TOKENIZER: google/pegasus-cnn_dailymail
 
 model_trainer:
   root_dir: artifacts/model
-  data_path: artifacts/data_transformation/samsum_dataset
+  data_path: artifacts/data_transformation/summary_data
   model_ckpt: google/pegasus-cnn_dailymail
   
 model_evaluation:
   root_dir: artifacts/model_evaluation
-  data_path: artifacts/data_transformation/samsum_dataset
+  data_path: artifacts/data_transformation/summary_data
   model_path: artifacts/model/pegasus_samsum_model_01
   tokenizer_path: artifacts/model/pegasus_samsum_tokenizer_01
   metric_file: artifacts/model_evaluation/metrics.csv
