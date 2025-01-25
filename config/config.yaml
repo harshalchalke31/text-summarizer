@@ -15,12 +15,14 @@ data_validation:
 data_transformation:
   root_dir: artifacts/data_transformation
   data_path: artifacts/data_ingestion/summary_data
-  TOKENIZER: google/pegasus-cnn_dailymail
+  # TOKENIZER: google/pegasus-cnn_dailymail
+  TOKENIZER: sshleifer/distilbart-cnn-12-6
 
 model_trainer:
   root_dir: artifacts/model
   data_path: artifacts/data_transformation/summary_data
-  model_ckpt: google/pegasus-cnn_dailymail
+  # model_ckpt: google/pegasus-cnn_dailymail
+  model_ckpt: sshleifer/distilbart-cnn-12-6
   
 model_evaluation:
   root_dir: artifacts/model_evaluation
