@@ -70,7 +70,13 @@ class ConfigurationManager:
             evaluation_strategy = params.evaluation_strategy,
             eval_steps = params.eval_steps,
             save_steps = params.save_steps,
-            gradient_accumulation_steps = params.gradient_accumulation_steps
+            gradient_accumulation_steps = params.gradient_accumulation_steps,
+            learning_rate=params.learning_rate,
+            save_total_limit=params.save_total_limit,
+            load_best_model_at_end=params.load_best_model_at_end,
+            metric_for_best_model=params.metric_for_best_model,
+            fp16=params.fp16,
+            report_to=params.report_to
         )
 
         return model_trainer_config

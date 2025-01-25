@@ -30,3 +30,4 @@ model_evaluation:
   model_path: artifacts/model/distilbart_model_01
   tokenizer_path: artifacts/model/distilbart_tokenizer_01
   metric_file: artifacts/model_evaluation/metrics.csv
+
