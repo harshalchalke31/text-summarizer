@@ -78,5 +78,5 @@ class ModelEvaluation:
             column_summary= 'summary'
             )
 
-        df = pd.DataFrame(score, index = ['pegasus'])
+        df = pd.DataFrame(score, index = ['distilBART'])
         df.to_csv(self.config.metric_file, index=False)

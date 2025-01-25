@@ -1,4 +1,7 @@
-# End to end Text-Summarizer-Project
+# DistilBARTText-Summarizer-Project
+
+## Remaining
+-Update Model training codein components
 
 ## Workflows
 

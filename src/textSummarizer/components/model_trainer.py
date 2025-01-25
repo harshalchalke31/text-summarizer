@@ -43,6 +43,6 @@ class ModelTrainer:
 
         trainer.train()
 
-        model.save_pretrained(os.path.join(self.config.root_dir,"pegasus_samsum_model_01"))
+        model.save_pretrained(os.path.join(self.config.root_dir,"distilbart_model_01"))
 
-        tokenizer.save_pretrained(os.path.join(self.config.root_dir,"pegasus_samsum_tokenizer_01"))
+        tokenizer.save_pretrained(os.path.join(self.config.root_dir,"distilbart_tokenizer_01"))
