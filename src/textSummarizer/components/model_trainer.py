@@ -50,5 +50,5 @@ class ModelTrainer:
         trainer.train()
 
         # Save final model and tokenizer
-        model.save_pretrained(os.path.join(self.config.root_dir, "distilbart_model_01"))
-        tokenizer.save_pretrained(os.path.join(self.config.root_dir, "distilbart_tokenizer_01"))
+        model.save_pretrained(os.path.join(self.config.root_dir, "pegasus_model_01"))
+        tokenizer.save_pretrained(os.path.join(self.config.root_dir, "pegasus_tokenizer_01"))
