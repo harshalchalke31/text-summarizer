@@ -1,4 +1,4 @@
-# DistilBARTText-Summarizer-Project
+# DistilBART Text-Summarizer-Project
 
 ## Remaining
 -Update Model training codein components
